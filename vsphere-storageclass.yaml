@@ -1,0 +1,11 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: vsphere-fast
+  annotations:
+provisioner: kubernetes.io/vsphere-volume
+parameters:
+    datastore: ds-sp-app-012
+    diskformat: zeroedthick
+    fstype: ext4
+reclaimPolicy: Delete
