@@ -137,7 +137,7 @@
 
         Verfique as logs no master se ocorreu algum problema
             kubectl logs -n kube-apiserver-node-k8s02 -n kube-system
-            kubectl logs -n kube-controller-manager-node-k8s02 -n kube-syste
+            kubectl logs -n kube-controller-manager-node-k8s02 -n kube-system
 
 04 - Atualizar os campos ProviderID no master e workers
 
