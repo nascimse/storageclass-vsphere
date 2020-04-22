@@ -5,7 +5,7 @@ metadata:
   annotations:
 provisioner: kubernetes.io/vsphere-volume
 parameters:
-    datastore: ds-sp-app-012
+    datastore: ds-vcenter
     diskformat: zeroedthick
     fstype: ext4
 reclaimPolicy: Delete
