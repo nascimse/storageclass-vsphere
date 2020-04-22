@@ -119,7 +119,7 @@
 
         Verfique as logs se ocorreu algum problema
             kubectl logs -n kube-apiserver-node-k8s02 -n kube-system
-            kubectl logs -n kube-controller-manager-node-k8s02 -n kube-syste
+            kubectl logs -n kube-controller-manager-node-k8s02 -n kube-system
         
                 
 03 - Nos workers do Kubernetes
